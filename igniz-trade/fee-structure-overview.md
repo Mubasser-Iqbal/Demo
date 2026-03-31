@@ -22,37 +22,25 @@ Spot trading volume contributes double weight toward fee tier advancement, incen
 
 ### Perpetual Futures Fee Tiers <a href="#perpetual-futures-fee-tiers" id="perpetual-futures-fee-tiers"></a>
 
-| Tier | 14-Day Weighted Volume | Taker Fee | Maker Fee |
-| ---- | ---------------------- | --------- | --------- |
-| 0    | ≤ $5M                  | 0.045%    | 0.015%    |
-| 1    | > $5M                  | 0.040%    | 0.012%    |
-| 2    | > $25M                 | 0.035%    | 0.008%    |
-| 3    | > $100M                | 0.030%    | 0.004%    |
-| 4    | > $500M                | 0.028%    | 0.000%    |
-| 5    | > $2B                  | 0.026%    | 0.000%    |
+| Tier  | 14-Day Weighted Volume | Taker Fee | Maker Fee |
+| ----- | ---------------------- | --------- | --------- |
+| VIP 1 | < $5M                  | 0.040%    | 0.000%    |
+| VIP 2 | ≥ $5M                  | 0.035%    | 0.000%    |
+| VIP 3 | ≥ $25M                 | 0.033%    | 0.000%    |
+| VIP 4 | ≥ $100M                | 0.023%    | 0.000%    |
+| VIP 5 | ≥ $500M                | 0.020%    | 0.000%    |
+| VIP 6 | ≥ $1B                  | 0.016%    | 0.000%    |
 
 ### Spot Fee Tiers <a href="#spot-market-fee-tiers" id="spot-market-fee-tiers"></a>
 
-| Tier | 14-Day Weighted Volume | Taker Fee | Maker Fee |
-| ---- | ---------------------- | --------- | --------- |
-| 0    | ≤ $5M                  | 0.070%    | 0.040%    |
-| 1    | > $5M                  | 0.060%    | 0.030%    |
-| 2    | > $25M                 | 0.050%    | 0.020%    |
-| 3    | > $100M                | 0.040%    | 0.010%    |
-| 4    | > $500M                | 0.035%    | 0.000%    |
-| 5    | > $2B                  | 0.030%    | 0.000%    |
-
-### Enhanced Maker Rebates <a href="#enhanced-maker-rebates" id="enhanced-maker-rebates"></a>
-
-Traders who consistently provide liquidity to the order book may qualify for enhanced maker rebates based on their maker-to-total volume ratio:
-
-| Rebate Tier | 14-Day Maker Volume Ratio | Enhanced Maker Fee |
-| ----------- | ------------------------- | ------------------ |
-| 1           | > 0.5%                    | -0.001%            |
-| 2           | > 1.5%                    | -0.002%            |
-| 3           | > 3.0%                    | -0.003%            |
-
-Enhanced maker rebates are applied on top of standard maker fees when qualified, resulting in net rebates paid to liquidity providers.
+| Tier  | 14-Day Weighted Volume | Taker Fee | Maker Fee |
+| ----- | ---------------------- | --------- | --------- |
+| VIP 1 | < $5M                  | 0.040%    | 0.050%    |
+| VIP 2 | ≥ $5M                  | 0.035%    | 0.045%    |
+| VIP 3 | ≥ $25M                 | 0.033%    | 0.040%    |
+| VIP 4 | ≥ $100M                | 0.030%    | 0.000%    |
+| VIP 5 | ≥ $500M                | 0.027%    | 0.000%    |
+| VIP 6 | ≥ $1B                  | 0.023%    | 0.000%    |
 
 ### Fee Distribution <a href="#fee-distribution" id="fee-distribution"></a>
 
